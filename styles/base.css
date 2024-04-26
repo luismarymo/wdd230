@@ -1,0 +1,113 @@
+/* colors and fonts */
+
+:root {
+    --primary-color: #FCBF49;
+    --secondary-color: #003049;
+    --accent1-color: #fff8d4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: var(--secondary-color);
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+header span {
+    color: var(--primary-color);
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+nav {
+    background-color: var(--accent1-color);
+    margin: 0 auto;
+}
+
+nav a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.7rem;
+}
+
+nav a:hover {
+    background-color: rgba(255, 183, 0, 0.2);
+}
+
+nav .active {
+    background-color: rgba(255, 183, 0, 0.6);
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin-bottom: -1rem;
+    text-decoration: underline var(--primary-color);
+}
+
+.cardparent {
+    margin: 1rem 2vw;
+}
+
+.card {
+    background-color: var(--accent1-color);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.card h2 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: .75rem 0;
+    font-size: 1rem;
+}
+
+.card > * {
+    padding: 10px
+}
+
+.card p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 1rem;
+}
+
+footer p {
+    padding: .25rem;
+}
+
+#lastModified {
+    color: var(--primary-color);
+    font-size: 0.85rem;
+}
