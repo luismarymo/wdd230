@@ -15,6 +15,13 @@ body {
     font-weight: 400;
 }
 
+#mode {
+    position: absolute;
+    top: 44px;
+    right: 0px;
+    cursor: pointer;
+}
+
 header {
     background-color: var(--secondary-color);
     display: flex;
@@ -31,8 +38,37 @@ header span {
 }
 
 nav {
+    display: grid;
+    grid-template-rows: 0fr;
     background-color: var(--accent1-color);
     margin: 0 auto;
+    transition: grid-template-rows .5s ease-out;
+}
+
+nav.open {
+    grid-template-rows: 1fr;
+}
+
+.nav-button::before {
+    content: "\2630";
+}
+
+.nav-button {
+    font-size: 2rem;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 44px;
+    text-align: center;
+    padding: .25rem 2vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nav-button.open::before {
+    content: "✕";
 }
 
 nav a {
@@ -40,7 +76,7 @@ nav a {
     color: #000;
     text-decoration: none;
     text-align: center;
-    padding: 0.7rem;
+    padding: 0.75rem;
 }
 
 nav a:hover {
@@ -55,20 +91,36 @@ ul {
     list-style-type: none;
 }
 
+.nav-links {
+    overflow: hidden;
+}
+
 main {
     max-width: 800px;
     margin: 0 auto;
 }
 
+main.dark {
+    background-color: #000;
+}
+
 h1 {
     font-size: 1.25rem;
     padding: 1rem;
-    margin-bottom: -1rem;
+    margin: 0 0 -1rem 0;
     text-decoration: underline var(--primary-color);
 }
 
+main.dark h1 {
+    color: #fff;
+}
+
 .cardparent {
-    margin: 1rem 2vw;
+    margin: 1rem 2vw
+}
+
+main.dark .cardparent {
+    background-color: #000;
 }
 
 .card {
