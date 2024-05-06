@@ -116,7 +116,7 @@ main.dark h1 {
 }
 
 .cardparent {
-    margin: 1rem 2vw
+    padding: .5rem 1rem;
 }
 
 main.dark .cardparent {
