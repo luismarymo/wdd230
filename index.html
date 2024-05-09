@@ -23,11 +23,11 @@
 
 <body>
     <div id="mode">
-        <img src="images/dark-mode.png" width="44" alt="Dark mode toggle button">
+        <img src="images/dark-mode.webp" width="44" alt="Dark mode toggle button">
         <!-- Icon by Icon Hubs on flaticon.com -->
     </div>
     <header>
-        <img src="images/profile.jpg" alt="Luismary Mariño Profile" width="75" height="94">
+        <img src="images/profile.webp" alt="Luismary Mariño Profile" width="75" height="94">
         <span>Luismary Mariño</span>
     </header>
     <nav>
@@ -40,6 +40,14 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 680px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="Buenos Aires Temple" width="3" height="2">
+            </picture>
+            <span>Buenos Aires Temple</span>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="cardparent">
             <section class="card">
@@ -63,8 +71,12 @@
                 <!-- placeholders -->
                 <p>Dadizele, Flemish Region, Belgium</p>
                 <p>9&deg; - Light Rain</p>
-                <p>Page Visits: </p>
+                <p>Page Visits: <span id="visits"></span></p>
             </section>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d61211.22345952166!2d3.0989365294540696!3d50.84757870270199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbe!4v1715244685638!5m2!1sen!2sbe"
+                width="600" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                title="Map of the area of Dadizele, Belgium"></iframe>
         </div>
     </main>
     <footer>

@@ -96,12 +96,35 @@ ul {
 }
 
 main {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 main.dark {
     background-color: #000;
+}
+
+.hero {
+    position: relative;
+}
+
+/* .hero picture {
+    width: 100%;
+} */
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero span {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    padding: .75rem;
+    background-color: rgba(255, 183, 0, 0.2);
+    font-weight: 600;
 }
 
 h1 {
@@ -144,6 +167,11 @@ main.dark .cardparent {
 
 .card p {
     text-align: center;
+}
+
+iframe {
+    border: 0;
+    width: 100%;
 }
 
 footer {

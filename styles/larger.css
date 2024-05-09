@@ -24,6 +24,10 @@
         flex: 1 1 100%;
     }
 
+    .hero span {
+        font-size: 1.5rem;
+    }
+
     .cardparent {
         margin: 0 2vw;
         display: grid;
@@ -33,5 +37,9 @@
 
     .cardparent section {
         box-shadow: 1px 1px 4px grey;
+    }
+
+    iframe {
+        grid-column: 1/3;
     }
 }
