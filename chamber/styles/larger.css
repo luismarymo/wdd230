@@ -1,4 +1,5 @@
 @media only screen and (min-width: 34rem) {
+    /* 544px */
     #nav-button {
         display: none;
     }
@@ -19,9 +20,9 @@
         text-align: center;
     }
 
-    .hero img {
-        max-width: 500px;
-    }
+    /* .hero img {
+        max-width: ;
+    } */
 
     .content {
         display: grid;
@@ -36,5 +37,20 @@
     footer {
         display: grid;
         grid-template-columns: 40% 60%;
+    }
+
+    .discover {
+        margin-top: -1.5rem;
+        display: grid;
+        grid-template-columns: 33% 66%;
+    }
+
+    .galery img {
+        transition: transform .8s;
+    }
+
+    .gallery img:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .4);
     }
 }

@@ -24,7 +24,7 @@ h1, h2, h3 {
 header {
     height: 6rem;
     width: 100%;
-    background-image: url("../images/banner.jpg"); /* Image by Cesar Pérez, CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:Origen_del_Rio_Guarapiche.jpg */
+    background-image: url("../images/banner.webp"); /* Image by Cesar Pérez, CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:Origen_del_Rio_Guarapiche.jpg */
     background-size: cover;
     background-position: center;
     color: var(--accent2-color);
@@ -116,7 +116,8 @@ ul {
 }
 
 .hero img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .call {
@@ -144,16 +145,16 @@ ul {
     background-color: #4a7d7d
 }
 
-.events article {
+article {
     background-color: #6ea64e39;
     padding: .5rem;
 }
 
-.events h3 {
+article h3 {
     margin: .75rem 0 .5rem 0;
 }
 
-.events p {
+article p {
     margin: .25rem;
 }
 
@@ -208,4 +209,53 @@ footer a {
 
 footer a:hover {
     background-color: rgba(255, 255, 255, .2);
+}
+
+/* discover page */
+aside {
+    margin: .5rem;
+}
+
+#visitMsg {
+    padding: 0 1rem;
+}
+
+.sidebar section h3 {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    margin-bottom: 0;
+    padding: .5rem;
+}
+
+.discover article img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding-top: .5rem;
+}
+
+.discover iframe {
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery figure {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+.gallery figcaption {
+    padding: .5rem;
 }
