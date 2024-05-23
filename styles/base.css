@@ -169,6 +169,19 @@ main.dark .cardparent {
     text-align: center;
 }
 
+.card img {
+    display: block;
+    margin: -15px auto;
+}
+
+#weather-description {
+    text-transform: capitalize;
+}
+
+#current-temp {
+    font-weight: 600;
+}
+
 iframe {
     border: 0;
     width: 100%;
