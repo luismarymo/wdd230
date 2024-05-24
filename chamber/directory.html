@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guarapiche Chamber of Commerce | Thank you</title>
-    <meta name="description" content="Thank you page for aspiring members of the Guarapiche Chamber of Commerce">
+    <title>Guarapiche Chamber of Commerce | Directory</title>
+    <meta name="description" content="Directory of members of the Guarapiche Chamber of Commerce">
     <meta name="author" content="Luismary Mariño">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Guarapiche Chamber of Commerce | Thank you">
+    <meta property="og:title" content="Guarapiche Chamber of Commerce | Directory">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://luismarymo.github.io/wdd230/chamber/images/banner-fullsize.jpg">
-    <meta property="og:url" content="https://luismarymo.github.io/wdd230/chamber/thankyou.html">
+    <meta property="og:url" content="https://luismarymo.github.io/wdd230/chamber/directory.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -38,13 +38,29 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Thank you for your interest in the Guarapiche Chamber of Commerce</h2>
-        <p class="thankyou">Your response has been recorded.</p>
+        <h2>Guarapiche Members</h2>
+        <div class="view">
+            <button type="button" id="grid" class="active"><img src="images/grid-view.webp" alt="Grid View Button"
+                    width="30" height="30"></button>
+            <!-- Icon by Maru https://thenounproject.com/icon/menu-4105246/ -->
+            <button type="button" id="list"><img src="images/list-view.webp" alt="List View Button" width="30"
+                    height="30"></button>
+            <!-- Icon by shopping icon https://thenounproject.com/icon/menu-6829033/ -->
+        </div>
+        <div id="directory" class="grid"></div>
+        <!-- logo images
+        acme: https://static.wikia.nocookie.net/fictionalcompanies/images/c/c2/ACME_Corporation.png/revision/latest?cb=20230628025220 
+        octan: https://en.wikipedia.org/wiki/File:Octan_logo.svg#/media/File:Octan_logo.svg 
+        oceanic airlines https://en.wikipedia.org/wiki/File:Oceanic.svg#/media/File:Oceanic.svg
+        maria carmen: https://logoipsum.com/artwork/327
+        fabrikan: https://logoipsum.com/artwork/292
+        newco: https://logoipsum.com/artwork/292
+        mastervol: https://thenounproject.com/icon/volleyball-6780387/ -->
     </main>
     <footer>
         <div class="footer-info">
@@ -56,11 +72,12 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 
 </html>

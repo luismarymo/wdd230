@@ -351,3 +351,74 @@ footer a:hover {
     padding: .5rem 1rem;
     background-color: #6ea64e39;
 }
+
+/* directory page */
+
+.view {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.view button {
+    border-radius: 5px;
+}
+
+.view button img {
+    margin-bottom: -4px;
+    padding: .5rem 0;
+    max-width: 60%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.view .active {
+    background-color: var(--accent1-color);
+}
+
+#directory {
+    margin-top: .5rem;
+}
+
+#directory h3 {
+    padding-left: 0;
+}
+
+#directory a {
+    color: var(--accent1-color);
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+#directory section * {
+    margin: .5rem 0;
+}
+
+/* grid view */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.grid section {
+    background-color: #6ea64e39;
+    padding: 1rem;
+    align-items: center;
+}
+
+/* list view */
+.list section {
+    padding: .1rem 1rem .5rem 1rem;
+}
+
+.list section:nth-child(even) {
+    background-color: #6ea64e39;
+}
+
+.list img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
