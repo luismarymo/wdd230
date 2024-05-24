@@ -5,7 +5,7 @@
             "address": "Road Runner, 6201 Maturín",
             "phone": "0291 9168-366",
             "url": "https://acmecorporation.com",
-            "logo": "../images/acme-corporation.webp",
+            "logo": "images/acme-corporation.webp",
             "membership": "Gold",
             "contactPerson": "Wile E. Coyote"
         },
@@ -14,7 +14,7 @@
             "address": "Tipuro, 6201 Maturín",
             "phone": "0291 5437-870",
             "url": "https://mariacarmenmedia.com",
-            "logo": "../images/mariacarmen.webp",
+            "logo": "images/mariacarmen.webp",
             "membership": "Gold",
             "contactPerson": "Maria Gonzales"
         },
@@ -23,7 +23,7 @@
             "address": "Lego City, 6201 Maturín",
             "phone": "0291 9090-312",
             "url": "https://octan.co",
-            "logo": "../images/octan.webp",
+            "logo": "images/octan.webp",
             "membership": "Gold",
             "contactPerson": "Duke DeTain"
         },
@@ -32,7 +32,7 @@
             "address": "Bajo de Guarapiche, 6201 Maturín",
             "phone": "0291 6587-862",
             "url": "https://flywithoceanic.com",
-            "logo": "../images/oceanic.webp",
+            "logo": "images/oceanic.webp",
             "membership": "Silver",
             "contactPerson": "Hurley Lost"
         },
@@ -41,7 +41,7 @@
             "address": "Zona Industrial, 6201 Maturín",
             "phone": "0291 7586-730",
             "url": "https://fabrikan.com",
-            "logo": "../images/fabrikan.webp",
+            "logo": "images/fabrikan.webp",
             "membership": "Silver",
             "contactPerson": "John Doe"
         },
@@ -50,7 +50,7 @@
             "address": "Las Avenidas, 6201 Maturín",
             "phone": "0291 2249-710",
             "url": "https://newco.com",
-            "logo": "../images/newco.webp",
+            "logo": "images/newco.webp",
             "membership": "Bronze",
             "contactPerson": "Newman Cox"
         },
@@ -59,7 +59,7 @@
             "address": "Complejo Polideportivo de Maturín, 6201 Maturín",
             "phone": "0291 2173-851",
             "url": "https://mastervolmon.org",
-            "logo": "../images/mastervol.webp",
+            "logo": "images/mastervol.webp",
             "membership": "NP",
             "contactPerson": "Luis Marino"
         }
