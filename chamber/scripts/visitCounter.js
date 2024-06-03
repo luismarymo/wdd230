@@ -1,6 +1,5 @@
 //last visit
 const visitMsg = document.querySelector("#visitMsg");
-let todayDate = new Date();
 
 let visits = Number(localStorage.getItem("visits")) || 0;
 let lastVisit = Number(localStorage.getItem("lastVisit")) || Date.now();

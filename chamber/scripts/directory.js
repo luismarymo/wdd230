@@ -9,7 +9,7 @@ async function getMembers() {
     try {
         const response = await fetch(url);
         if (response.ok) {
-            data = await response.json();
+            const data = await response.json();
             displayMembers(data.members);
             
         } else {
